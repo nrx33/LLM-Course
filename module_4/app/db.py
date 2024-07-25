@@ -4,12 +4,12 @@ from psycopg2.extras import DictCursor
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-tz = ZoneInfo("Europe/Berlin")
+tz = ZoneInfo("America/New_York")
 
 
 def get_db_connection():
     return psycopg2.connect(
-        host=os.getenv("POSTGRES_HOST", "postgres"),
+        host=os.getenv("POSTGRES_HOST", "localhost"),
         database=os.getenv("POSTGRES_DB", "course_assistant"),
         user=os.getenv("POSTGRES_USER", "your_username"),
         password=os.getenv("POSTGRES_PASSWORD", "your_password"),
@@ -39,7 +39,7 @@ def init_db():
                     eval_prompt_tokens INTEGER NOT NULL,
                     eval_completion_tokens INTEGER NOT NULL,
                     eval_total_tokens INTEGER NOT NULL,
-                    openai_cost FLOAT NOT NULL,
+                    openai_cost FLOAT NOT NULL,  # Adding the openai_cost field
                     timestamp TIMESTAMP WITH TIME ZONE NOT NULL
                 )
             """)
@@ -86,7 +86,7 @@ def save_conversation(conversation_id, question, answer_data, course, timestamp=
                     answer_data["eval_prompt_tokens"],
                     answer_data["eval_completion_tokens"],
                     answer_data["eval_total_tokens"],
-                    answer_data["openai_cost"],
+                    answer_data["openai_cost"],  # Include openai_cost in the insert
                     timestamp,
                 ),
             )
