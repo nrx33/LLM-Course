@@ -8,7 +8,6 @@ This is my repo of LLM Zoomcamp course at Data Talks Club.
 * [Workshop](https://github.com/nrx33/LLM-Course/blob/main/workshop/dlt_workshop.ipynb)<br>
 * [Homework 4](https://github.com/nrx33/LLM-Course/blob/main/module_4/homework/nazmul_homework_4.ipynb)<br>
 * [Homework 5](https://github.com/nrx33/LLM-Course/blob/main/module_5/nazmul_homework_5.ipynb)<br>
-* [Homework 6](https://github.com/)
 
 <br>`Final Project`
-* [Project](https://github.com/)<br>
+* [Project]([https://github.com/](https://github.com/nrx33/yoga-companion-rag))<br>
