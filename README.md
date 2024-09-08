@@ -10,4 +10,4 @@ This is my repo of LLM Zoomcamp course at Data Talks Club.
 * [Homework 5](https://github.com/nrx33/LLM-Course/blob/main/module_5/nazmul_homework_5.ipynb)<br>
 
 <br>`Final Project`
-* [Project]([https://github.com/](https://github.com/nrx33/yoga-companion-rag))<br>
+* [Project](https://github.com/nrx33/yoga-companion-rag)<br>
