@@ -10,8 +10,6 @@
 - **Evaluation Metrics:** Learning offline evaluation techniques for RAG systems, including cosine similarity and LLM-as-a-Judge metrics.
 - **Grafana:** Creating dashboards for visualizing and monitoring chat history and user feedback.
 - **Data Ingestion:** Using Mage for efficient data ingestion in LLM pipelines.
-- **RAG Optimization:** Exploring advanced techniques like hybrid search and document reranking to improve RAG pipeline performance.
-- **LangChain:** Implementing hybrid search techniques using the LangChain framework.
 
 <br>`Homeworks`
 * [Homework 1](https://github.com/nrx33/LLM-Course/blob/main/module_1/nazmul_homework_1.ipynb)<br>
