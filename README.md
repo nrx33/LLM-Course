@@ -1,4 +1,4 @@
-### LLM-Course 2024 Cohort
+### LLM Zoomcamp 2024 Cohort
 
 <br>*What I Learned*
 - **LLMs and RAG:** Understanding Large Language Models and Retrieval-Augmented Generation, their applications, and basic implementation.
